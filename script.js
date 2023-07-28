@@ -52,7 +52,7 @@ function checkWinner() {
   if (player0_HighScore >= 50) {
     document.querySelector('.player--0').classList.add('player--winner');
     gamePlaying = 0;
-  } else if (player1_HighScore >= 15) {
+  } else if (player1_HighScore >= 50) {
     document.querySelector('.player--1').classList.add('player--winner');
     gamePlaying = 0;
   } else {
